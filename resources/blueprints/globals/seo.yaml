@@ -1,0 +1,26 @@
+sections:
+  page_titles:
+    display: 'Page meta'
+    fields:
+      -
+        import: 'statamic-peak-seo::globals_seo_page_titles'
+  json-ld:
+    display: JSON-ld
+    fields:
+      -
+        import: 'statamic-peak-seo::globals_seo_json-ld'
+  social:
+    display: 'Social Sharing'
+    fields:
+      -
+        import: 'statamic-peak-seo::globals_seo_social'
+  sitemap:
+    display: Sitemap
+    fields:
+      -
+        import: 'statamic-peak-seo::globals_seo_sitemap'
+  trackers:
+    display: Trackers
+    fields:
+      -
+        import: 'statamic-peak-seo::globals_seo_trackers'

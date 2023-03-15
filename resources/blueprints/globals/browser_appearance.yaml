@@ -1,0 +1,11 @@
+sections:
+  general:
+    display: General
+    fields:
+      -
+        import: statamic-peak-browser-appearance::globals_browser_appearance_general
+  favicons:
+    display: Favicons
+    fields:
+      -
+        import: statamic-peak-browser-appearance::globals_browser_appearance_favicons
