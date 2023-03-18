@@ -27,8 +27,11 @@ kecuali jika peoject baru
 # Fly Documentaion
 📜 Fly Documentation
 Docs - https://fly.io/docs/
+
 Fly CLI - https://fly.io/docs/flyctl/
+
 GitHub Action - https://fly.io/docs/app-guides/contin...
+
 Setting Environment Variables - https://fly.io/docs/reference/secrets...
 
 # site.ext
