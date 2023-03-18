@@ -1,4 +1,38 @@
+# Install statamic
+1. "php artisan config:clear"
+2. tambahkan: post-autoload-dump -> composer.json":
+  "@php artisan statamic:install --ansi", 
+        "@php artisan statamic:search:update --all --ansi",
+        "@php artisan statamic:static:clear --ansi"
+https://fly.io/app/sign-in4. Install starter kit: statamic new mysite studio1902/statamic-peak
+5. php please make:user
+6. Run project : php artisan serve
+
+
+Ganti template: php please starter-kit:install vendor-name/starter-kit-name
+jika project sudah terdapat modul pada exiting-site, tidak disarankan clear site first,
+kecuali jika peoject baru
+
+# Deploy Project Ke Fly.io
+1. Buat akun Fly.io https://fly.io/app/sign-up
+2. Sign in fly.io https://fly.io/app/sign-in
+3. buka githbas/laragon atau sejenisnya arahkan ke folder yg akan di deploy
+4. lalu ketikan perintah " flyctl auth token " untuk mendapatkan token
+5. kemudian buat nama secret nya yaitu " FLY_API_TOKEN lalu masukan token ke repository secretnya di https://github.com/Alfinrizki13/Laravel-statamic/settings/secrets/actions
+6. setelah itu buat folder folder di projek kalian atau sejenisnya .github/workflows/fly.yml
+7. kemudian masukan kode di "fly.yml" https://github.com/DenverCoder1/tutorial-discord-bot/blob/eede71e/.github/workflows/fly.yml
+8. setelah itu jalankan perintah di di terminal " flyctl launch" yes semua
+9. deploy now "yes"
+
+# Fly Documentaion
+📜 Fly Documentation
+Docs - https://fly.io/docs/
+Fly CLI - https://fly.io/docs/flyctl/
+GitHub Action - https://fly.io/docs/app-guides/contin...
+Setting Environment Variables - https://fly.io/docs/reference/secrets...
+
 # site.ext
+
 
 ## Installation instructions
 
